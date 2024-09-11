@@ -1,29 +1,43 @@
-# DONT DM ME ABOUT THIS, USE ISSUES FOR SUPPORT
 
-updated version [here](https://github.com/edudevvv/promo-discord-gen)
+# UPDATE v1.3
+- Fully Request Based
+- Much Faster
+- CF Bypass
+- No errors
+- Threading
+- Hella Fast
 
-# Promo-Gen-V2
-V2 of my original promo gen for getting discord promos through epic games | This one uses Chess.com
+# PREVIEW
 
-kids are selling this shit for over $100 i even saw some kid doing $350 (they are just broke indians)
+- Main Page
+<img width="371" alt="image" src="https://github.com/user-attachments/assets/adb1bc84-d7ab-4733-ab77-5f8fa481bbb2">
 
-so here is one, not great but it works (i have confirmed most going for those high prices are selenium based like dis LMAO)
+- Generating Promos
+- <img width="651" alt="image" src="https://github.com/user-attachments/assets/882edb06-de89-4a30-b0ca-b2235ecdcb45">
 
-plez share this and make fun of kids selling a barely 150 line program for that much money :(
 
-# info
-So this basicly registers on chess.com then makes a request to the promo endpoint for the promo
+# PROMO GEN V2
+- This is V2 of my OG promo gen, this one makes requests to chess.com, collects UIDs then collects the promo
+- This is all done within a few seconds generating hundreds of promos per second!
 
-also it uses selenium cuz i made it in like 10 minutes so it saves promos to promo.txt
+# USAGE
+- Open `./data/proxies.txt` and put your proxies in either `user:pass@ip:port` or `ip:port`
 
-plez star and i make fully request version
+# INFO
+Scrapes a UUID off random users then uses it in the request
 
-just run `gen.py` and it starts genning promos 
+Fully **request based** meaning it is **VERY** fast 
 
-# other
+Please star this, thank you!
+
+just run `main.py` and it starts genning promos 
+
+# CONTACT
 
 join discord --> https://discord.gg/csolve
 
 join tg --> https://t.me/csolver
+
+Website --> https://csolver.xyz
 
 dm me --> `csolver.py` on discord

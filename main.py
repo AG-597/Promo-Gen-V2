@@ -122,9 +122,10 @@ def __MAIN__():
     __CLS__()
     __LOGO__()
     promos = int(log.input(f"Promos --> "))
-
-    with ThreadPoolExecutor(max_workers=promos) as exc:
-        exc.submit(__GEN__)
+    for _ in promos:
+        with ThreadPoolExecutor(max_workers=promos) as exc:
+            exc.submit(__GEN__)
         
 if __name__ == '__main__':
     __MAIN__()
+    

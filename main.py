@@ -122,7 +122,7 @@ def __MAIN__():
     __CLS__()
     __LOGO__()
     promos = int(log.input(f"Promos --> "))
-    for _ in promos:
+    for _ in range(promos):
         with ThreadPoolExecutor(max_workers=promos) as exc:
             exc.submit(__GEN__)
         
